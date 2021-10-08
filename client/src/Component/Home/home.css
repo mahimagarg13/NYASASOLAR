@@ -1,0 +1,31 @@
+.splideContainer{
+    display: flex;
+    padding: 20px;
+}
+.cardContainerYellow{
+    border-radius: 4px;
+    background:rgb(252, 187, 66);
+    color: white;
+    box-shadow: 0 6px 10px rgba(0,0,0,.18), 0 0 6px rgba(0,0,0,.15);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 280px;
+}
+.flexWrap{
+    display: flex;
+    flex-wrap:wrap;
+}
+@media screen and (max-width:725px)
+{
+    .cardContainerYellow{
+height: 290px;
+
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .cardContainerYellow{
+    height: 390px;
+    }
+}
