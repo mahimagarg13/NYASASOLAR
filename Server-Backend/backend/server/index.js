@@ -6,7 +6,6 @@ const nodemailer = require("nodemailer");
 
 
 
-//middle
 app.use(cors());
 app.use(express.json());
 
