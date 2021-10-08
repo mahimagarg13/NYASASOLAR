@@ -63,5 +63,9 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.2.0"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
